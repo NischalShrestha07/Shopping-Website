@@ -15,9 +15,6 @@ body {
     padding: 15px;
     background: greenyellow;
     color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 ul {
@@ -25,6 +22,12 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    /* border-bottom: 3px solid red; */
+
 }
 
 .navbar {
@@ -54,14 +57,20 @@ li {
     list-style: none;
     font-size: 25px;
 
+
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .btn1 {
-    height: 35px;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 25px;
+    padding: 4px;
+    font-size: 20px;
     border: 2px solid black;
     background: rgb(131, 114, 119);
     color: white;
@@ -69,7 +78,13 @@ li {
 
 .btn1:hover {
     box-shadow: 3px 5px 5px black;
-    font-size: 26px;
+    font-size: 20.2px;
+
+}
+
+.btn2:hover {
+    box-shadow: 3px 5px 5px black;
+    font-size: 20.2px;
 
 }
 
@@ -83,4 +98,44 @@ li {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.firstContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.b2 img {
+    margin-left: 10vw;
+    width: 35vw;
+}
+
+.b1 img {
+    width: 5vw;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.b1 span {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'santserret', sans-serif;
+}
+
+.btn2 {
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(133, 38, 38);
+    color: white;
+    border: 3px solid black;
+
 }
