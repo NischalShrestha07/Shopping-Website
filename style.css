@@ -139,3 +139,20 @@ li {
     font-weight: bold;
 
 }
+
+.secondContainer h1 {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-bottom: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
