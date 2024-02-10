@@ -159,6 +159,11 @@ li {
 
 }
 
+.proPart2 img {
+    border-radius: 15px;
+
+}
+
 .proPart2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -169,6 +174,16 @@ li {
 
 }
 
+/* .proPart3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    margin-top: 100px;
+
+} */
+
 .products img {
     border-radius: 15px;
 }
@@ -177,7 +192,8 @@ li {
     text-align: center;
 }
 
-/* .proPart3 h1 {
+/* 
+.proPart3 h1 {
     text-align: center;
 } */
 
@@ -202,6 +218,14 @@ li {
     align-items: center;
     margin-top: -45px;
 }
+
+/* .proPart3 span {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+} */
 
 
 .p1:hover {
