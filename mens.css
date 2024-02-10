@@ -10,3 +10,37 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 45px;
+
+}
+
+.btn5 {
+    background: rgb(199, 189, 197);
+    color: rgb(11, 21, 13);
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+
+
+.det span {
+    font-weight: 100;
+    font-size: 25px;
+    /* display: flex; */
+
+}
