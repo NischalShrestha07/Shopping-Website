@@ -84,8 +84,11 @@ li {
 
 .btn2:hover {
     box-shadow: 3px 5px 5px black;
-    font-size: 20.2px;
-
+    font-size: 20.1px;
+    transform: scale(1.01);
+    transition: ease-in-out;
+    background: rgb(175, 36, 36);
+    color: white;
 }
 
 .sign img {
@@ -115,10 +118,6 @@ li {
 .b1 img {
     width: 5vw;
 
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
 
 .b1 span {
@@ -137,5 +136,6 @@ li {
     background: rgb(133, 38, 38);
     color: white;
     border: 3px solid black;
+    font-weight: bold;
 
 }
