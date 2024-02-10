@@ -25,6 +25,7 @@ body {
 
 }
 
+
 .btn5 {
     background: rgb(199, 189, 197);
     color: rgb(11, 21, 13);
@@ -33,6 +34,35 @@ body {
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
+
+}
+
+.btn6 {
+    margin-left: 45vw;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(199, 189, 197);
+    color: rgb(11, 21, 13);
+    padding: 7px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid black;
+    margin-bottom: 80px;
+    transition: 0.5 ease-in-out;
+}
+
+.btn6:hover {
+
+    transform: scale(1.05);
+    background: black;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+
 
 }
 
