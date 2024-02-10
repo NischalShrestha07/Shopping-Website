@@ -325,11 +325,34 @@ li {
 
 }
 
+.contacts {
+    margin: 4vw 7vw;
+    background: grey;
+    padding: 10vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 45px;
+
+}
+
 .icons {
     display: flex;
     justify-content: center;
+
     align-items: center;
     gap: 25px;
+
+}
+
+.datas {
+    padding: 45px;
+}
+
+.datas li a {
+    font-size: 35px;
+    margin: 0 25px;
+    color: rgb(55, 1, 232);
+    border-bottom: 5px solid red;
 
 }
 
