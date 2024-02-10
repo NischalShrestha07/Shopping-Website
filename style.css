@@ -155,4 +155,67 @@ li {
     justify-content: space-evenly;
     align-items: center;
     gap: 15px;
+    margin-top: 100px;
+
+}
+
+.products img {
+    border-radius: 15px;
+}
+
+.p1:hover {
+    transform: scale(1.07);
+}
+
+.p2:hover {
+    transform: scale(1.07);
+}
+
+.p3:hover {
+    transform: scale(1.07);
+}
+
+.p4:hover {
+    transform: scale(1.07);
+}
+
+.thirdContainer {
+    display: flex;
+    padding: 25px;
+    margin: 7vw;
+    background: #FBEBFF;
+    justify-content: center;
+    align-items: center;
+    gap: 18vw;
+}
+
+.details h1 {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.details span {
+    font-size: 28px;
+    margin: 65px 0;
+}
+
+.btn3 {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background: red;
+    color: white;
+    border: 2px solid rgb(21, 3, 3);
+}
+
+.btn3:hover {
+    box-shadow: 3px 5px 5px black;
+    transform: scale(1.03);
+    transition: ease-in-out;
+    background: rgb(175, 36, 36);
+    color: white;
+
 }
