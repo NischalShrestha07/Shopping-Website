@@ -192,11 +192,6 @@ li {
     text-align: center;
 }
 
-/* 
-.proPart3 h1 {
-    text-align: center;
-} */
-
 .fourthContainer {
     border-radius: 15px;
 }
@@ -204,9 +199,11 @@ li {
 .fourthContainer h2 {
     display: flex;
     justify-content: center;
+    padding: 25px;
     align-items: center;
     font-weight: bold;
     font-size: 45px;
+    /* margin-bottom: 105px; */
     border-bottom: 4px solid red;
 }
 
