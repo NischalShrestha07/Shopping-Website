@@ -103,6 +103,18 @@ li {
     gap: 20px;
 }
 
+.products h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.products span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
 .firstContainer {
     display: flex;
     justify-content: center;
@@ -174,16 +186,6 @@ li {
 
 }
 
-/* .proPart3 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 15px;
-    margin-top: 100px;
-
-} */
-
 .products img {
     border-radius: 15px;
 }
@@ -194,6 +196,30 @@ li {
 
 .fourthContainer {
     border-radius: 15px;
+}
+
+.p1 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.p2 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.p3 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.p4 {
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 25px;
 }
 
 .fourthContainer h2 {
@@ -329,7 +355,7 @@ li {
     margin: 4vw 7vw;
     background: grey;
     padding: 10vw;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     font-size: 45px;
 
@@ -338,9 +364,10 @@ li {
 .icons {
     display: flex;
     justify-content: center;
-
+    margin-top: 25px;
     align-items: center;
-    gap: 25px;
+    gap: 45px;
+    font-size: 55px;
 
 }
 
@@ -352,11 +379,20 @@ li {
     font-size: 35px;
     margin: 0 25px;
     color: rgb(55, 1, 232);
-    border-bottom: 5px solid red;
+    border-bottom: 3px solid red;
 
 }
 
 .name h1 {
     padding-top: 15px;
 
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(138, 124, 124);
+    font-size: 30px;
+    padding: 15px;
 }
